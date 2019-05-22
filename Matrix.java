@@ -15,6 +15,14 @@ public class Matrix<T> {
 	public Matrix(int rows, int cols) {
 		matrix = (T[][]) new Object[rows][cols];
 	} 
+	
+	/** 
+	 * Returns the matrix 
+	 * @return the matrix 
+	 */ 
+	public Matrix<T> getMatrix() {
+		return matrix;
+	}
 
 	/** 
 	 * Update the entry at row r and column c 
