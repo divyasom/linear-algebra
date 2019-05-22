@@ -20,7 +20,7 @@ public class Matrix<T> {
 	 * Returns the matrix 
 	 * @return the matrix 
 	 */ 
-	public Matrix<T> getMatrix() {
+	public T[][] getMatrix() {
 		return matrix;
 	}
 
